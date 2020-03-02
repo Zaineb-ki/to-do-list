@@ -4,17 +4,53 @@ body{
     background-color: coral;
 }
 .todo{
-    text-align: center;
-    margin-top: 1%;
+    margin-top: 12%;
+    line-height: 55%;
+    margin-left: 42%;
+
 }
 
 h1{
     font-size: 40px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
+    margin-left: 3%;
+    
 }
 h3{
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
+    margin-left: 7%;
+    
+}
+.todo label{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    
+
+}
+.todo input[type = text] {
+    /* background-color: rgb(240, 152, 120); */
+    border: 0px;
+    border-bottom: 2px solid rgb(240, 152, 120);
+    background-color: coral;
+    font-size: 15px;
+    color: white;
+    
+}
+
+.todo input[type = button]{
+    color: white;
+    background-color: rgb(240, 152, 120);
+    border-radius: 43%;
+    border: 1px solid rgb(240, 152, 120);
+    width: 4%;
+    font-size: 15px;
+    
+}
+
+.content {
+    text-align: start;
 }
