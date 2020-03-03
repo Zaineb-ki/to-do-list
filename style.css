@@ -41,7 +41,7 @@ h3{
     
 }
 
-.todo input[type = button]{
+.todo button[type = button]{
     color: white;
     background-color: rgb(240, 152, 120);
     border-radius: 43%;
